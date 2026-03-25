@@ -12,7 +12,15 @@
     --font-inter: "Inter", sans-serif;
     --font-nunito: "Nunito", sans-serif;
     --font-poppins: "Poppins", sans-serif;
-    --color-primary: #194D2E;
+    --color-primary-text: #E3E3E3;
+    --color-primary-text-50: #4B5563;
+    --color-primary-text-100: #374151;
+    --color-primary-text-250: #111827;
+    --color-primary-0: #F9FAFB;
+    --color-primary: #F5EFE6;
+    --color-primary-50: #E8DFCA;
+    --color-primary-100: #4F6F51;
+    --color-primary-250: #194D2E;
 }
 
 .nav-menu,

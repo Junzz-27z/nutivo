@@ -24,17 +24,51 @@
             <x-button variant='outline'>Register</x-button>
         </div>
     </header>
-    <footer class="bg-primary text-white px-25 pb-9.25">
+    <main class="font-inter">
+        {{--<section>
+            gambarnya
+        </section>--}}
+        <section id="about-nutivo" class="bg-primary-50 p-20 tracking-[-0.5px]">
+            <h2 class="text-4xl text-center text-primary-text-250 font-bold mb-4 leading-10">Tentang Nutivo</h2>
+            <p class="text-xl text-center text-primary-text-50 leading-7 max-w-178.75 mx-auto">
+                Kami hadir untuk membantu Anda mencapai gaya hidup sehat melalui tracking nutrisi yang akurat dan program yang disesuaikan dengan kebutuhan individual.
+            </p>
+            <div class="flex justify-center items-center gap-8 mx-8 mt-16">
+                <div class="bg-primary-100 rounded-xl text-white text-center px-11.75 pt-8 pb-7.5 max-w-96 shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
+                    <div class="bg-primary-0 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4">
+                        {{-- icon --}}
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 leading-7">Tracking Akurat</h3>
+                    <p class="leading-6">Pantau kalori, makronutrien, dan konsumsi air dengan database makanan yang lengkap dan akurat.</p>
+                </div>
+                <div class="bg-primary-0 rounded-xl text-center px-11.75 pt-8 pb-7.5 max-w-96">
+                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4">
+                        {{-- icon --}}
+                    </div>
+                    <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7">Program yang Dipersonalisasi</h3>
+                    <p class="text-primary-text-50 leading-6">Program diet dan bulking yang disesuaikan dengan goals, berat badan, dan tinggi badan Anda.</p>
+                </div>
+                <div class="bg-primary-0 rounded-xl text-center px-11.75 pt-8 pb-7.5 max-w-96">
+                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-4.25 py-4">
+                        {{-- icon --}}
+                    </div>
+                    <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7">Komunitas Supportif</h3>
+                    <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-primary-250 text-white px-25 pb-9.25">
         <div class="flex">
             <section id="footer-nutivo" class="pr-25 pt-8 gap-4 flex flex-col">
                 <h2 class="font-belgrano text-4xl">Nutivo</h2>
-                <p class="font-poppins text-xs text-[#E3E3E3] max-w-74">
+                <p class="font-poppins text-xs text-primary-text max-w-74">
                     Platform kesehatan digital yang membantu Anda mencapai berat badan ideal dan gaya hidup sehat melalui program diet
                 </p>
             </section>
             <section id="navigation-menu" class="ml-56.5 pt-12.25 gap-3.5 flex flex-col">
                 <h2 class="font-bold font-nunito">NAVIGATION</h2>
-                <div class="flex flex-col gap-2 font-poppins text-xs text-[#E3E3E3]">
+                <div class="flex flex-col gap-2 font-poppins text-xs text-primary-text">
                     <a href="">Home</a>
                     <a href="">About</a>
                     <a href="">Features</a>
@@ -44,7 +78,7 @@
             </section>
             <section id="dietprograms-menu" class="ml-22.25 pt-12.25 gap-3.5 flex flex-col">
                 <h2 class="font-bold font-nunito min-w-33.25">DIET PROGRAMS</h2>
-                <div class="flex flex-col gap-2 font-poppins text-xs text-[#E3E3E3]">
+                <div class="flex flex-col gap-2 font-poppins text-xs text-primary-text">
                     <a href="">Diet Ringan</a>
                     <a href="">Diet Standar</a>
                     <a href="">Diet Ketat</a>
@@ -52,15 +86,16 @@
             </section>
             <section id="socialmedia-menu" class="ml-24.75 pt-12.25 flex flex-col">
                 <h2 class="font-bold font-nunito mb-3.5">SOCIAL MEDIA</h2>
-                <p class="font-poppins text-xs text-[#E3E3E3] max-w-74 mb-3">
+                <p class="font-poppins text-xs text-primary-text max-w-74 mb-3">
                     Dapatkan tips diet dan nutrisi lainnya dengan mengunjungi sosial media kami
                 </p>
-                <div class="flex flex-row gap-3">
-                </div>
+                {{--<div class="flex flex-row gap-3">
+                    logo social media
+                </div>--}}
             </section>
         </div>
-        <hr class="mt-15.25 mb-2 border-[#E3E3E3]">
-        <div class="px-130 text-center text-xs font-poppins text-[#E3E3E3]">
+        <hr class="mt-15.25 mb-2 border-primary-text">
+        <div class="px-130 text-center text-xs font-poppins text-primary-text">
             &copy; 2026 Nutivo. All rights reserved
         </div>
     </footer>
