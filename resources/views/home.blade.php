@@ -19,6 +19,10 @@
             <a href="">Features</a>
             <a href="">Program</a>
         </nav>
+        <div class="auth-group gap-6 font-nunito w-auto mt-0">
+            <x-button>Login</x-button>
+            <x-button variant='outline'>Register</x-button>
+        </div>
     </header>
 </body>
 </html>
