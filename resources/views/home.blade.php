@@ -57,6 +57,60 @@
                 </div>
             </div>
         </section>
+        <section id="features-nutivo" class="bg-primary-100 px-20 pt-11.75 pb-21.5 tracking-[-0.5px]">
+            <h2 class="text-4xl text-center text-white font-bold mb-2.75 leading-10 max-w-123.5 mx-auto">Semua Yang Kamu Butuhkan Dalam Satu Aplikasi</h2>
+            <p class="text-xl text-center text-primary-text leading-7 max-w-135.25 mx-auto">
+                Dari tracking hingga monitoring perkembangan, Nutivo hadir sebagai teman setia perjalanan sehatmu.
+            </p>
+            <div class="flex flex-col gap-7.5">
+                <div class="flex justify-center items-center gap-8 mx-8 mt-16">
+                    <div class="bg-primary-0 rounded-xl px-10.25 py-7.25 max-w-96">
+                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                            {{-- icon --}}
+                        </div>
+                        <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
+                        <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
+                    </div>
+                    <div class="bg-primary-0 rounded-xl px-10.25 py-7.25 max-w-96">
+                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                            {{-- icon --}}
+                        </div>
+                        <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
+                        <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
+                    </div>
+                    <div class="bg-primary-0 rounded-xl px-10.25 py-7.25 max-w-96">
+                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                            {{-- icon --}}
+                        </div>
+                        <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
+                        <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-8 mx-8">
+                    <div class="bg-primary-0 rounded-xl px-10.25 py-7.25 max-w-96">
+                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                            {{-- icon --}}
+                        </div>
+                        <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
+                        <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
+                    </div>
+                    <div class="bg-primary-0 rounded-xl px-10.25 py-7.25 max-w-96">
+                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                            {{-- icon --}}
+                        </div>
+                        <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
+                        <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
+                    </div>
+                    <div class="bg-primary-0 rounded-xl px-10.25 py-7.25 max-w-96">
+                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                            {{-- icon --}}
+                        </div>
+                        <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
+                        <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="bg-primary-250 text-white px-25 pb-9.25">
         <div class="flex">
