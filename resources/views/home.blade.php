@@ -13,6 +13,12 @@
 <body>
     <header class="flex justify-between items-center px-25 py-6 sticky top-0 bg-white flex-nowrap z-50">
         <h2 class="text-3xl font-belgrano">Nutivo</h2>
+        <nav class="nav-menu items-center gap-6 font-nunito bg-white w-auto flex-row mt-0">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Features</a>
+            <a href="">Program</a>
+        </nav>
     </header>
 </body>
 </html>
