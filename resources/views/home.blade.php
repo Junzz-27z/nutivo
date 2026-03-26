@@ -11,7 +11,7 @@
     <title>Nutivo</title>
 </head>
 <body>
-    <header class="flex justify-between items-center px-25 py-9 sticky top-0 bg-white flex-nowrap z-50">
+    <header class="flex justify-between items-center px-25 pt-9 pb-6.75 sticky top-0 bg-white flex-nowrap z-50">
         <h2 class="text-3xl font-belgrano">Nutivo</h2>
         <nav class="nav-menu items-center gap-6 font-nunito bg-white w-auto flex-row mt-0">
             <a href="">Home</a>
