@@ -169,6 +169,16 @@
                 </div>
             </div>
         </section>
+        <section id="mulai-nutivo" class="bg-primary-100 px-68 py-20 tracking-[-0.5px]">
+            <h2 class="text-4xl text-center text-white font-bold leading-10">Mulai Perjalanan Sehat Anda Hari Ini</h2>
+            <p class="text-xl text-center text-primary-text mt-7 mb-7.5 leading-7 w-187.25 mx-auto">
+                Bergabung dengan ribuan pengguna yang telah mencapai goals kesehatan mereka bersama Nutivo
+            </p>
+            <div class="flex justify-center items-center text-lg text-center font-semibold shrink-0 gap-4 py-5.25 w-auto">
+                <x-button variant='white'>Daftar Gratis Sekarang</x-button>
+                <x-button variant='outline-white'>Pelajari Lebih Lanjut</x-button>
+            </div>
+        </section>
     </main>
     <footer class="bg-primary-250 text-white px-25 pb-9.25">
         <div class="flex">
