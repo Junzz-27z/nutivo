@@ -18,10 +18,14 @@
     --color-primary-text-250: #111827;
     --color-primary-home: #F9FAFB;
     --color-primary-home-50: #666;
-    --color-primary: #F5EFE6;
+    --color-primary: #194D2E;
     --color-primary-50: #E8DFCA;
     --color-primary-100: #4F6F51;
-    --color-primary-250: #194D2E;
+    --color-background: #F5EFE6;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .nav-menu,

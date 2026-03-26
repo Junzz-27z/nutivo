@@ -20,8 +20,12 @@
             <a href="">Program</a>
         </nav>
         <div class="auth-group gap-6 font-nunito w-auto mt-0">
-            <x-button>Login</x-button>
-            <x-button variant='outline'>Register</x-button>
+            <div class="-px-0.5 py-1">
+                <x-button size='lg'>Login</x-button>
+            </div>
+            <div class="-px-0.5 py-1">
+                <x-button size='lg' variant='outline'>Register</x-button>
+            </div>
         </div>
     </header>
     <main class="font-inter">
@@ -65,21 +69,21 @@
             <div class="flex flex-col shrink-0 gap-7.5">
                 <div class="flex justify-center items-start gap-8 mx-8 mt-16">
                     <div class="bg-primary-home rounded-xl px-10.25 py-7.25 w-96">
-                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                        <div class="bg-primary rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
                             {{-- icon --}}
                         </div>
                         <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
                         <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
                     </div>
                     <div class="bg-primary-home rounded-xl px-10.25 py-7.25 w-96">
-                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                        <div class="bg-primary rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
                             {{-- icon --}}
                         </div>
                         <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
                         <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
                     </div>
                     <div class="bg-primary-home rounded-xl px-10.25 py-7.25 w-96">
-                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                        <div class="bg-primary rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
                             {{-- icon --}}
                         </div>
                         <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
@@ -88,21 +92,21 @@
                 </div>
                 <div class="flex justify-center items-start gap-8 mx-8">
                     <div class="bg-primary-home rounded-xl px-10.25 py-7.25 w-96">
-                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                        <div class="bg-primary rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
                             {{-- icon --}}
                         </div>
                         <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
                         <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
                     </div>
                     <div class="bg-primary-home rounded-xl px-10.25 py-7.25 w-96">
-                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                        <div class="bg-primary rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
                             {{-- icon --}}
                         </div>
                         <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
                         <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
                     </div>
                     <div class="bg-primary-home rounded-xl px-10.25 py-7.25 w-96">
-                        <div class="bg-primary-250 rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
+                        <div class="bg-primary rounded-full w-16 h-16 flex justify-center items-center px-5.75 py-3.75">
                             {{-- icon --}}
                         </div>
                         <h3 class="text-xl text-primary-text-250 font-semibold mt-5.75 mb-5.75 leading-7">Komunitas Supportif</h3>
@@ -139,7 +143,7 @@
                             Monitoring progress mingguan
                         </li>
                     </ul>
-                    <button class="bg-primary-100 text-white font-semibold rounded-lg w-132 py-3.5 leading-5">Pilih Program Diet</button>
+                    <button class="bg-primary-100 text-white border-2 border-primary-100 font-semibold rounded-lg w-132 py-3.5 leading-5 hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:opacity-90">Pilih Program Diet</button>
                 </div>
                 <div class="relative bg-white rounded-2xl p-8 w-148 shadow-[0_4px_6px_0_rgba(0,0,0,0.10),0_10px_15px_0_rgba(0,0,0,0.10)]">
                     <div class="absolute inset-0 bg-primary-home-50 opacity-50 rounded-2xl z-20 shadow-[0_4px_6px_0_rgba(0,0,0,0.10),0_10px_15px_0_rgba(0,0,0,0.10)]"></div>
@@ -165,7 +169,7 @@
                             Panduan timing nutrisi
                         </li>
                     </ul>
-                    <button class="bg-primary-100 text-white font-semibold rounded-lg w-132 py-3.5 leading-5">Pilih Program Bulking</button>
+                    <button class="bg-primary-100 text-white border-2 border-primary-100 font-semibold rounded-lg w-132 py-3.5 leading-5 hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:opacity-90">Pilih Program Bulking</button>
                 </div>
             </div>
         </section>
@@ -174,13 +178,13 @@
             <p class="text-xl text-center text-primary-text mt-7 mb-7.5 leading-7 w-187.25 mx-auto">
                 Bergabung dengan ribuan pengguna yang telah mencapai goals kesehatan mereka bersama Nutivo
             </p>
-            <div class="flex justify-center items-center text-lg text-center font-semibold shrink-0 gap-4 py-5.25 w-auto">
-                <x-button variant='white'>Daftar Gratis Sekarang</x-button>
-                <x-button variant='outline-white'>Pelajari Lebih Lanjut</x-button>
+            <div class="flex justify-center items-center text-lg text-center font-semibold shrink-0 gap-4 w-auto">
+                    <x-button size='lg' variant='white' class='w-64.75 h-16'>Daftar Gratis Sekarang</x-button>
+                    <x-button size='lg' variant='outline-white' class='w-64.75 h-16'>Pelajari Lebih Lanjut</x-button>
             </div>
         </section>
     </main>
-    <footer class="bg-primary-250 text-white px-25 pb-9.25">
+    <footer class="bg-primary text-white px-25 pb-9.25">
         <div class="flex">
             <section id="footer-nutivo" class="pr-25 pt-8 gap-4 flex flex-col">
                 <h2 class="font-belgrano text-4xl">Nutivo</h2>
