@@ -38,26 +38,26 @@
                 Kami hadir untuk membantu Anda mencapai gaya hidup sehat melalui tracking nutrisi yang akurat dan program yang disesuaikan dengan kebutuhan individual
             </p>
             <div class="flex justify-center items-start shrink-0 gap-8 mx-8 mt-16">
-                <div class="bg-primary-100 rounded-xl text-white text-center px-11.75 pt-8 pb-7.5 w-96 shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
-                    <div class="bg-primary-home rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4">
+                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96 group hover:bg-primary-100 hover:shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
+                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4 group-hover:bg-white">
                         {{-- icon --}}
                     </div>
-                    <h3 class="text-xl font-semibold mb-4 leading-7">Tracking Akurat</h3>
-                    <p class="leading-6">Pantau kalori, makronutrien, dan konsumsi air dengan database makanan yang lengkap dan akurat.</p>
+                    <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7 group-hover:text-white">Tracking Akurat</h3>
+                    <p class="text-primary-text-50 leading-6 group-hover:text-white">Pantau kalori, makronutrien, dan konsumsi air dengan database makanan yang lengkap dan akurat.</p>
                 </div>
-                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96">
-                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4">
+                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96 group hover:bg-primary-100 hover:shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
+                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4 group-hover:bg-white">
                         {{-- icon --}}
                     </div>
-                    <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7">Program yang Dipersonalisasi</h3>
-                    <p class="text-primary-text-50 leading-6">Program diet dan bulking yang disesuaikan dengan goals, berat badan, dan tinggi badan Anda.</p>
+                    <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7 group-hover:text-white">Program yang Dipersonalisasi</h3>
+                    <p class="text-primary-text-50 leading-6 group-hover:text-white">Program diet dan bulking yang disesuaikan dengan goals, berat badan, dan tinggi badan Anda.</p>
                 </div>
-                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96">
-                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-4.25 py-4">
+                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96 group hover:bg-primary-100 hover:shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
+                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-4.25 py-4 group-hover:bg-white">
                         {{-- icon --}}
                     </div>
-                    <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7">Komunitas Supportif</h3>
-                    <p class="text-primary-text-50 leading-6">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
+                    <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7 group-hover:text-white">Komunitas Supportif</h3>
+                    <p class="text-primary-text-50 leading-6 group-hover:text-white">Bergabung dengan komunitas yang saling mendukung dalam perjalanan menuju hidup sehat.</p>
                 </div>
             </div>
         </section>
