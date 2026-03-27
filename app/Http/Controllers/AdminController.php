@@ -45,4 +45,8 @@ class AdminController extends Controller
     public function manageProgramShow() {
         return view('admin.manage-program.show');
     }
+
+    public function profileDelete() {
+        return view('profile.show');
+    }
 }
