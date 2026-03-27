@@ -15,9 +15,9 @@
         <h2 class="font-belgrano text-3xl text-primary font-semibold">Nutivo</h2>
         <nav class="nav-menu items-center gap-6 font-nunito bg-white w-auto flex-row mt-0">
             <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Features</a>
-            <a href="">Program</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#program">Program</a>
         </nav>
         <div class="auth-group gap-6 font-nunito w-auto mt-0">
             <x-button class="px-3 py-2 rounded-lg">Login</x-button>
@@ -28,7 +28,7 @@
         {{--<section>
             gambarnya
         </section>--}}
-        <section id="about" class="bg-background p-20 tracking-[-0.5px]">
+        <section id="about" class="bg-background p-20 tracking-[-0.5px] scroll-mt-26.5">
             <h2 class="text-4xl text-center text-black font-bold mb-4 leading-10">Tentang Nutivo</h2>
             <p class="text-xl text-center text-text-dark leading-7 w-178.75 mx-auto">
                 Kami hadir untuk membantu Anda mencapai gaya hidup sehat melalui tracking nutrisi yang akurat dan program yang disesuaikan dengan kebutuhan individual
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section id="features" class="bg-primary px-20 pt-11.75 pb-21.5 tracking-[-0.5px]">
+        <section id="features" class="bg-primary px-20 pt-11.75 pb-21.5 tracking-[-0.5px] scroll-mt-26.5">
             <h2 class="text-4xl text-center text-white font-bold mb-2.75 leading-10 w-123.5 mx-auto">Semua Yang Kamu Butuhkan Dalam Satu Aplikasi</h2>
             <p class="text-xl text-center text-text-light leading-7 w-135.25 mx-auto">
                 Dari tracking hingga monitoring perkembangan, Nutivo hadir sebagai teman setia perjalanan sehatmu
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </section>
-        <section id="program" class="bg-background p-20 tracking-[-0.5px]">
+        <section id="program" class="bg-background p-20 tracking-[-0.5px] scroll-mt-26.5">
             <h2 class="text-4xl text-center text-black font-bold mb-4.5 leading-10">Program Tersedia</h2>
             <p class="text-xl text-center text-text-dark leading-7">
                 Pilih program yang sesuai dengan target kesehatan Anda
@@ -169,7 +169,7 @@
                 </div>
             </div>
         </section>
-        <section id="mulai" class="bg-primary px-68 py-20 tracking-[-0.5px]">
+        <section id="mulai" class="bg-primary px-68 py-20 tracking-[-0.5px] scroll-mt-26.5">
             <h2 class="text-4xl text-center text-white font-bold leading-10">Mulai Perjalanan Sehat Anda Hari Ini</h2>
             <p class="text-xl text-center text-text-light mt-7 mb-7.5 leading-7 w-187.25 mx-auto">
                 Bergabung dengan ribuan pengguna yang telah mencapai goals kesehatan mereka bersama Nutivo
@@ -192,9 +192,9 @@
                 <h2 class="font-bold font-nunito">NAVIGATION</h2>
                 <div class="flex flex-col gap-2 font-poppins text-xs text-text-light">
                     <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Features</a>
-                    <a href="">Program</a>
+                    <a href="#about">About</a>
+                    <a href="#features">Features</a>
+                    <a href="#program">Program</a>
                     <a href="">Dashboard</a>
                 </div>
             </section>
