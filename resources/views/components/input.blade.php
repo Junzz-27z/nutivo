@@ -3,7 +3,16 @@
     'name',
     'type' => 'text',
     'placeholder' => '',
+    'variant' => 'primary',
 ])
+
+@php
+    $class = $variant === 'auth'
+    ? "bg-background text-primary placeholder:text-primary border-2 border-primary"
+    : "bg-primary text-white placeholder:text-white";
+
+    $baseClass = "w-full px-4 py-2.5 font-semibold rounded-lg text-sm outline-none transition-all duration-300 {{ $class }}"
+@endphp
 
 <div class="flex flex-col gap-y-1.5">
     @if ($label)
@@ -16,5 +25,5 @@
         id="{{ $name }}" 
         name="{{ $name }}" 
         placeholder="{{ $placeholder }}"
-        {{ $attributes->class(['w-full px-4 py-2.5 font-semibold bg-primary text-white placeholder:text-white rounded-lg border text-sm outline-none border-none transition-all duration-300']) }}>
+        {{ $attributes->class([$baseClass]) }}>
 </div>

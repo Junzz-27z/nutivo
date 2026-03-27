@@ -1,4 +1,4 @@
-@props(['showNavbar' => true])
+@props(['hideNavbar' => false])
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,20 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nutivo</title>
+    <title>Document</title>
     @vite(['resources/css/app.css'])
 </head>
 <body class="font-poppins bg-background">
-    @if (!$showNavbar)
-        <main class="min-h-screen flex items-center justify-center">
-            {{ $slot }}
-        </main>
+    @if (!$hideNavbar)
+        {{ $slot }}
     @else
-        <x-navbar :navAdmin="true" />
+        <x-navbar :navUser="true" />
         <main class="px-25 pt-8">
             {{ $slot }}
         </main>
     @endif
-    
 </body>
 </html>
