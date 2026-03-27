@@ -32,28 +32,28 @@
         {{--<section>
             gambarnya
         </section>--}}
-        <section id="about-nutivo" class="bg-primary-50 p-20 tracking-[-0.5px]">
+        <section id="about-nutivo" class="bg-background p-20 tracking-[-0.5px]">
             <h2 class="text-4xl text-center text-primary-text-250 font-bold mb-4 leading-10">Tentang Nutivo</h2>
             <p class="text-xl text-center text-primary-text-50 leading-7 w-178.75 mx-auto">
                 Kami hadir untuk membantu Anda mencapai gaya hidup sehat melalui tracking nutrisi yang akurat dan program yang disesuaikan dengan kebutuhan individual
             </p>
             <div class="flex justify-center items-start shrink-0 gap-8 mx-8 mt-16">
-                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96 group hover:bg-primary-100 hover:shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
-                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4 group-hover:bg-white">
+                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96 group hover:bg-primary hover:shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
+                    <div class="bg-primary rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4 group-hover:bg-white">
                         {{-- icon --}}
                     </div>
                     <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7 group-hover:text-white">Tracking Akurat</h3>
                     <p class="text-primary-text-50 leading-6 group-hover:text-white">Pantau kalori, makronutrien, dan konsumsi air dengan database makanan yang lengkap dan akurat.</p>
                 </div>
-                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96 group hover:bg-primary-100 hover:shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
-                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4 group-hover:bg-white">
+                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96 group hover:bg-primary hover:shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
+                    <div class="bg-primary rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-5 py-4 group-hover:bg-white">
                         {{-- icon --}}
                     </div>
                     <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7 group-hover:text-white">Program yang Dipersonalisasi</h3>
                     <p class="text-primary-text-50 leading-6 group-hover:text-white">Program diet dan bulking yang disesuaikan dengan goals, berat badan, dan tinggi badan Anda.</p>
                 </div>
-                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96 group hover:bg-primary-100 hover:shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
-                    <div class="bg-primary-100 rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-4.25 py-4 group-hover:bg-white">
+                <div class="bg-primary-home rounded-xl text-center px-11.75 pt-8 pb-7.5 w-96 group hover:bg-primary hover:shadow-[0_4px_6px_0_rgba(0,0,0,0.25),0_10px_15px_0_rgba(0,0,0,0.25)]">
+                    <div class="bg-primary rounded-full w-16 h-16 flex justify-center items-center mx-auto mb-6.5 px-4.25 py-4 group-hover:bg-white">
                         {{-- icon --}}
                     </div>
                     <h3 class="text-xl text-primary-text-250 font-semibold mb-4 leading-7 group-hover:text-white">Komunitas Supportif</h3>
@@ -61,7 +61,7 @@
                 </div>
             </div>
         </section>
-        <section id="features-nutivo" class="bg-primary-100 px-20 pt-11.75 pb-21.5 tracking-[-0.5px]">
+        <section id="features-nutivo" class="bg-primary px-20 pt-11.75 pb-21.5 tracking-[-0.5px]">
             <h2 class="text-4xl text-center text-white font-bold mb-2.75 leading-10 w-123.5 mx-auto">Semua Yang Kamu Butuhkan Dalam Satu Aplikasi</h2>
             <p class="text-xl text-center text-primary-text leading-7 w-135.25 mx-auto">
                 Dari tracking hingga monitoring perkembangan, Nutivo hadir sebagai teman setia perjalanan sehatmu
@@ -115,7 +115,7 @@
                 </div>
             </div>
         </section>
-        <section id="program-nutivo" class="bg-primary-50 p-20 tracking-[-0.5px]">
+        <section id="program-nutivo" class="bg-background p-20 tracking-[-0.5px]">
             <h2 class="text-4xl text-center text-primary-text-250 font-bold mb-4.5 leading-10">Program Tersedia</h2>
             <p class="text-xl text-center text-primary-text-50 leading-7">
                 Pilih program yang sesuai dengan target kesehatan Anda
@@ -123,7 +123,7 @@
             <div class="flex justify-center items-start shrink-0 gap-8 mx-8 mt-16">
                 <div class="bg-white rounded-2xl p-8 w-148 shadow-[0_4px_6px_0_rgba(0,0,0,0.10),0_10px_15px_0_rgba(0,0,0,0.10)]">
                     <div class="inline-flex items-center">
-                        <div class="bg-primary-100 rounded-lg w-12 h-12 flex justify-center items-center mb-6.5 px-3.5 py-2.5">
+                        <div class="bg-primary rounded-lg w-12 h-12 flex justify-center items-center mb-6.5 px-3.5 py-2.5">
                             {{-- icon --}}
                         </div>
                         <h3 class="text-xl text-primary-text-250 font-semibold ml-4 mt-2 mb-8.5 leading-7">Program Diet</h3>
@@ -143,17 +143,17 @@
                             Monitoring progress mingguan
                         </li>
                     </ul>
-                    <button class="bg-primary-100 text-white border-2 border-primary-100 font-semibold rounded-lg w-132 py-3.5 leading-5 hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:opacity-90">Pilih Program Diet</button>
+                    <button class="bg-primary text-white border-2 border-primary font-semibold rounded-lg w-132 py-3.5 leading-5 hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:opacity-90">Pilih Program Diet</button>
                 </div>
                 <div class="relative bg-white rounded-2xl p-8 w-148 shadow-[0_4px_6px_0_rgba(0,0,0,0.10),0_10px_15px_0_rgba(0,0,0,0.10)]">
                     <div class="absolute inset-0 bg-primary-home-50 opacity-50 rounded-2xl z-20 shadow-[0_4px_6px_0_rgba(0,0,0,0.10),0_10px_15px_0_rgba(0,0,0,0.10)]"></div>
                     <div class="inline-flex items-center">
-                        <div class="bg-primary-100 rounded-lg w-12 h-12 flex justify-center items-center mb-6.5 px-3.5 py-2.5">
+                        <div class="bg-primary rounded-lg w-12 h-12 flex justify-center items-center mb-6.5 px-3.5 py-2.5">
                             {{-- icon --}}
                         </div>
                         <h3 class="text-xl text-primary-text-250 font-semibold ml-4 mt-2 mb-8.5 leading-7">Program Bulking</h3>
                     </div>
-                    <div class="absolute top-0 right-0 bg-primary-100 text-2xl text-white font-bold rounded-tr-2xl rounded-bl-2xl w-48.25 px-2.5 py-4.25 leading-8">COMING SOON</div>
+                    <div class="absolute top-0 right-0 bg-primary text-2xl text-white font-bold rounded-tr-2xl rounded-bl-2xl w-48.25 px-2.5 py-4.25 leading-8">COMING SOON</div>
                     <p class="text-primary-text-50 leading-6">Program untuk menambah massa otot dan berat badan dengan surplus kalori yang terukur.</p>
                     <ul class="flex flex-col justify-center items-start gap-3 mt-5.5 mb-8">
                         <li class="flex flex-col justify-center items-start text-primary-text-100 gap-3 leading-5">
@@ -169,11 +169,11 @@
                             Panduan timing nutrisi
                         </li>
                     </ul>
-                    <button class="bg-primary-100 text-white border-2 border-primary-100 font-semibold rounded-lg w-132 py-3.5 leading-5 hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:opacity-90">Pilih Program Bulking</button>
+                    <button class="bg-primary text-white border-2 border-primary font-semibold rounded-lg w-132 py-3.5 leading-5 hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:opacity-90">Pilih Program Bulking</button>
                 </div>
             </div>
         </section>
-        <section id="mulai-nutivo" class="bg-primary-100 px-68 py-20 tracking-[-0.5px]">
+        <section id="mulai-nutivo" class="bg-primary px-68 py-20 tracking-[-0.5px]">
             <h2 class="text-4xl text-center text-white font-bold leading-10">Mulai Perjalanan Sehat Anda Hari Ini</h2>
             <p class="text-xl text-center text-primary-text mt-7 mb-7.5 leading-7 w-187.25 mx-auto">
                 Bergabung dengan ribuan pengguna yang telah mencapai goals kesehatan mereka bersama Nutivo
@@ -184,7 +184,7 @@
             </div>
         </section>
     </main>
-    <footer class="bg-primary text-white px-25 pb-9.25">
+    <footer class="bg-primary-100 text-white px-25 pb-9.25">
         <div class="flex">
             <section id="footer-nutivo" class="pr-25 pt-8 gap-4 flex flex-col">
                 <h2 class="font-belgrano text-4xl">Nutivo</h2>
