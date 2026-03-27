@@ -23,7 +23,7 @@
                 <x-nav-link href="{{ route('manageFood') }}" :active="request()->routeIs('manageFood*')">Manage Food</x-nav-link>
                 <x-nav-link href="{{ route('manageProgram') }}" :active="request()->routeIs('manageProgram*')">Manage Program</x-nav-link>
             </nav>
-            <x-button href="/logout" variant="logout">Logout</x-button>
+            <x-button href="/logout" variant="logout" class="px-3 py-2 rounded-lg">Logout</x-button>
         </header>
         <main class="px-25 pt-8">
             {{ $slot }}

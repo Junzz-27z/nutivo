@@ -10,9 +10,9 @@
     } else if ($variant == 'logout') {
         $variantClass = "text-white bg-[#C30000] border-2 border-[#C30000] hover:opacity-90";
     } else if ($variant == 'white') {
-        $variantClass = "text-primary bg-white border-2 border-white hover:bg-primary hover:text-white hover:border-primary hover:opacity-90";
+        $variantClass = "text-primary bg-white border-2 border-white hover:bg-background hover:text-primary hover:border-cream hover:opacity-90";
     } else if ($variant == 'outline-white') {
-        $variantClass = "text-white bg-transparent border-2 border-white hover:bg-primary hover:border-primary hover:opacity-90";
+        $variantClass = "text-white bg-transparent border-2 border-white hover:bg-secondary hover:border-secondary hover:opacity-90";
     } else {
         $variantClass = "text-white bg-primary border-2 border-primary hover:opacity-90";
     }
