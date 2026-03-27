@@ -139,24 +139,32 @@
             <div class="flex justify-center items-start shrink-0 gap-8 mx-8 mt-16">
                 <div class="bg-white rounded-2xl p-8 w-148 shadow-[0_4px_6px_0_rgba(0,0,0,0.10),0_10px_15px_0_rgba(0,0,0,0.10)]">
                     <div class="inline-flex items-center">
-                        <div class="bg-primary rounded-lg w-12 h-12 flex justify-center items-center mb-6.5 px-3.5 py-2.5">
-                            {{-- icon --}}
+                        <div class="bg-primary rounded-lg w-12 h-12 flex justify-center items-center mb-6.5 px-3.5 py-2.5 text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M5 6.875C5 5.54892 5.52678 4.27715 6.46447 3.33947C7.40215 2.40178 8.67392 1.875 10 1.875C11.3261 1.875 12.5979 2.40178 13.5355 3.33947C14.4732 4.27715 15 5.54892 15 6.875C15 8.20108 14.4732 9.47285 13.5355 10.4105C12.5979 11.3482 11.3261 11.875 10 11.875C8.67392 11.875 7.40215 11.3482 6.46447 10.4105C5.52678 9.47285 5 8.20108 5 6.875ZM15.3047 2.5C14.043 0.972656 12.1367 0 10 0C7.86328 0 5.95703 0.972656 4.69531 2.5H2.5C1.12109 2.5 0 3.62109 0 5V17.5C0 18.8789 1.12109 20 2.5 20H17.5C18.8789 20 20 18.8789 20 17.5V5C20 3.62109 18.8789 2.5 17.5 2.5H15.3047ZM11.5625 8.75C11.5625 8.33594 11.4023 7.96094 11.1367 7.67969L12.4492 4.62109C12.5859 4.30469 12.4375 3.9375 12.1211 3.80078C11.8047 3.66406 11.4375 3.8125 11.3008 4.12891L9.98828 7.1875C9.12891 7.19141 8.4375 7.89062 8.4375 8.75C8.4375 9.61328 9.13672 10.3125 10 10.3125C10.8633 10.3125 11.5625 9.61328 11.5625 8.75Z"/>
+                            </svg>
                         </div>
                         <h3 class="text-xl text-black font-semibold ml-4 mt-2 mb-8.5 leading-7">Program Diet</h3>
                     </div>
                     <p class="text-text-dark leading-6">Program khusus untuk menurunkan berat badan dengan defisit kalori yang sehat dan berkelanjutan.</p>
                     <ul class="flex flex-col justify-center items-start gap-3 mt-5.5 mb-8">
-                        <li class="flex flex-col justify-center items-start text-text-dark gap-3 leading-5">
-                            {{-- ikon --}}
-                            Target kalori harian yang disesuaikan
+                        <li class="flex flex-row justify-center items-start text-primary gap-3 leading-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="currentColor" class="my-1.25">
+                                <path d="M13.7066 0.292969C14.0973 0.683594 14.0973 1.31797 13.7066 1.70859L5.70664 9.70859C5.31602 10.0992 4.68164 10.0992 4.29102 9.70859L0.291016 5.70859C-0.0996094 5.31797 -0.0996094 4.68359 0.291016 4.29297C0.681641 3.90234 1.31602 3.90234 1.70664 4.29297L5.00039 7.58359L12.2941 0.292969C12.6848 -0.0976562 13.3191 -0.0976562 13.7098 0.292969H13.7066Z"/>
+                            </svg>
+                            <span class="text-text-dark">Target kalori harian yang disesuaikan</span>
                         </li>
-                        <li class="flex flex-col justify-center items-start text-text-dark gap-3 leading-5">
-                            {{-- ikon --}}
-                            Menu makanan sehat dan bergizi
+                        <li class="flex flex-row justify-center items-start text-primary gap-3 leading-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="currentColor" class="my-1.25">
+                                <path d="M13.7066 0.292969C14.0973 0.683594 14.0973 1.31797 13.7066 1.70859L5.70664 9.70859C5.31602 10.0992 4.68164 10.0992 4.29102 9.70859L0.291016 5.70859C-0.0996094 5.31797 -0.0996094 4.68359 0.291016 4.29297C0.681641 3.90234 1.31602 3.90234 1.70664 4.29297L5.00039 7.58359L12.2941 0.292969C12.6848 -0.0976562 13.3191 -0.0976562 13.7098 0.292969H13.7066Z"/>
+                            </svg>
+                            <span class="text-text-dark">Menu makanan sehat dan bergizi</span>
                         </li>
-                        <li class="flex flex-col justify-center items-start text-text-dark gap-3 leading-5">
-                            {{-- ikon --}}
-                            Monitoring progress mingguan
+                        <li class="flex flex-row justify-center items-start text-primary gap-3 leading-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="currentColor" class="my-1.25">
+                                <path d="M13.7066 0.292969C14.0973 0.683594 14.0973 1.31797 13.7066 1.70859L5.70664 9.70859C5.31602 10.0992 4.68164 10.0992 4.29102 9.70859L0.291016 5.70859C-0.0996094 5.31797 -0.0996094 4.68359 0.291016 4.29297C0.681641 3.90234 1.31602 3.90234 1.70664 4.29297L5.00039 7.58359L12.2941 0.292969C12.6848 -0.0976562 13.3191 -0.0976562 13.7098 0.292969H13.7066Z"/>
+                            </svg>
+                            <span class="text-text-dark">Monitoring progres mingguan</span>
                         </li>
                     </ul>
                     <button class="bg-primary text-white border-2 border-primary font-semibold rounded-lg w-132 py-3.5 leading-5 hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:opacity-90">Pilih Program Diet</button>
@@ -164,25 +172,33 @@
                 <div class="relative bg-white rounded-2xl p-8 w-148 shadow-[0_4px_6px_0_rgba(0,0,0,0.10),0_10px_15px_0_rgba(0,0,0,0.10)]">
                     <div class="absolute inset-0 bg-comingsoon opacity-50 rounded-2xl z-20 shadow-[0_4px_6px_0_rgba(0,0,0,0.10),0_10px_15px_0_rgba(0,0,0,0.10)]"></div>
                     <div class="inline-flex items-center">
-                        <div class="bg-primary rounded-lg w-12 h-12 flex justify-center items-center mb-6.5 px-3.5 py-2.5">
-                            {{-- icon --}}
+                        <div class="bg-primary rounded-lg w-12 h-12 flex justify-center items-center mb-6.5 px-3.5 py-2.5 text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 25 18" fill="currentColor">
+                                <path d="M3.75 1.25C3.75 0.558594 4.30859 0 5 0H6.25C6.94141 0 7.5 0.558594 7.5 1.25V7.5V10V16.25C7.5 16.9414 6.94141 17.5 6.25 17.5H5C4.30859 17.5 3.75 16.9414 3.75 16.25V13.75H2.5C1.80859 13.75 1.25 13.1914 1.25 12.5V10C0.558594 10 0 9.44141 0 8.75C0 8.05859 0.558594 7.5 1.25 7.5V5C1.25 4.30859 1.80859 3.75 2.5 3.75H3.75V1.25ZM21.25 1.25V3.75H22.5C23.1914 3.75 23.75 4.30859 23.75 5V7.5C24.4414 7.5 25 8.05859 25 8.75C25 9.44141 24.4414 10 23.75 10V12.5C23.75 13.1914 23.1914 13.75 22.5 13.75H21.25V16.25C21.25 16.9414 20.6914 17.5 20 17.5H18.75C18.0586 17.5 17.5 16.9414 17.5 16.25V10V7.5V1.25C17.5 0.558594 18.0586 0 18.75 0H20C20.6914 0 21.25 0.558594 21.25 1.25ZM16.25 7.5V10H8.75V7.5H16.25Z"/>
+                            </svg>
                         </div>
                         <h3 class="text-xl text-black font-semibold ml-4 mt-2 mb-8.5 leading-7">Program Bulking</h3>
                     </div>
                     <div class="absolute top-0 right-0 bg-primary text-2xl text-white font-bold rounded-tr-2xl rounded-bl-2xl w-48.25 px-2.5 py-4.25 leading-8">COMING SOON</div>
                     <p class="text-text-dark leading-6">Program untuk menambah massa otot dan berat badan dengan surplus kalori yang terukur.</p>
                     <ul class="flex flex-col justify-center items-start gap-3 mt-5.5 mb-8">
-                        <li class="flex flex-col justify-center items-start text-text-dark gap-3 leading-5">
-                            {{-- ikon --}}
-                            Surplus kalori yang optimal
+                        <li class="flex flex-row justify-center items-start text-primary gap-3 leading-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="currentColor" class="my-1.25">
+                                <path d="M13.7066 0.292969C14.0973 0.683594 14.0973 1.31797 13.7066 1.70859L5.70664 9.70859C5.31602 10.0992 4.68164 10.0992 4.29102 9.70859L0.291016 5.70859C-0.0996094 5.31797 -0.0996094 4.68359 0.291016 4.29297C0.681641 3.90234 1.31602 3.90234 1.70664 4.29297L5.00039 7.58359L12.2941 0.292969C12.6848 -0.0976562 13.3191 -0.0976562 13.7098 0.292969H13.7066Z"/>
+                            </svg>
+                            <span class="text-text-dark">Surplus kalori yang optimal</span>
                         </li>
-                        <li class="flex flex-col justify-center items-start text-text-dark gap-3 leading-5">
-                            {{-- ikon --}}
-                            Focus pada protein tinggi
+                        <li class="flex flex-row justify-center items-start text-primary gap-3 leading-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="currentColor" class="my-1.25">
+                                <path d="M13.7066 0.292969C14.0973 0.683594 14.0973 1.31797 13.7066 1.70859L5.70664 9.70859C5.31602 10.0992 4.68164 10.0992 4.29102 9.70859L0.291016 5.70859C-0.0996094 5.31797 -0.0996094 4.68359 0.291016 4.29297C0.681641 3.90234 1.31602 3.90234 1.70664 4.29297L5.00039 7.58359L12.2941 0.292969C12.6848 -0.0976562 13.3191 -0.0976562 13.7098 0.292969H13.7066Z"/>
+                            </svg>
+                            <span class="text-text-dark">Fokus pada protein tinggi</span>
                         </li>
-                        <li class="flex flex-col justify-center items-start text-text-dark gap-3 leading-5">
-                            {{-- ikon --}}
-                            Panduan timing nutrisi
+                        <li class="flex flex-row justify-center items-start text-primary gap-3 leading-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="currentColor" class="my-1.25">
+                                <path d="M13.7066 0.292969C14.0973 0.683594 14.0973 1.31797 13.7066 1.70859L5.70664 9.70859C5.31602 10.0992 4.68164 10.0992 4.29102 9.70859L0.291016 5.70859C-0.0996094 5.31797 -0.0996094 4.68359 0.291016 4.29297C0.681641 3.90234 1.31602 3.90234 1.70664 4.29297L5.00039 7.58359L12.2941 0.292969C12.6848 -0.0976562 13.3191 -0.0976562 13.7098 0.292969H13.7066Z"/>
+                            </svg>
+                            <span class="text-text-dark">Panduan timing nutrisi</span>
                         </li>
                     </ul>
                     <button class="bg-primary text-white border-2 border-primary font-semibold rounded-lg w-132 py-3.5 leading-5 hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:opacity-90">Pilih Program Bulking</button>
