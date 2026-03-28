@@ -237,9 +237,9 @@
             <section id="dietprograms-menu" class="ml-22.25 pt-12.25 gap-3.5 flex flex-col">
                 <h2 class="font-bold font-nunito w-33.25">DIET PROGRAMS</h2>
                 <div class="flex flex-col gap-2 font-poppins text-xs text-text-light">
-                    <a href="">Diet Ringan</a>
-                    <a href="">Diet Standar</a>
-                    <a href="">Diet Ketat</a>
+                    <span>Diet Ringan</span>
+                    <span>Diet Standar</span>
+                    <span>Diet Ketat</span>
                 </div>
             </section>
             <section id="socialmedia-menu" class="ml-24.75 pt-12.25 flex flex-col">
