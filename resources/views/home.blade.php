@@ -14,7 +14,7 @@
     <header class="flex justify-between items-center px-25 pt-9 pb-6.75 sticky top-0 bg-white flex-nowrap z-50">
         <h2 class="font-belgrano text-3xl text-primary font-semibold">Nutivo</h2>
         <nav class="nav-menu items-center gap-6 font-nunito bg-white w-auto flex-row mt-0">
-            <a href="">Home</a>
+            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#features">Features</a>
             <a href="#program">Program</a>
@@ -25,9 +25,9 @@
         </div>
     </header>
     <main class="font-inter">
-        {{--<section>
-            gambarnya
-        </section>--}}
+        <section id="home" class="scroll-mt-26.5">
+            <img src="/assets/home.png" alt="" class="w-full">
+        </section>
         <section id="about" class="bg-background p-20 tracking-[-0.5px] scroll-mt-26.5">
             <h2 class="text-4xl text-center text-black font-bold mb-4 leading-10">Tentang Nutivo</h2>
             <p class="text-xl text-center text-text-dark leading-7 w-178.75 mx-auto">
@@ -227,7 +227,7 @@
             <section id="navigation-menu" class="ml-56.5 pt-12.25 gap-3.5 flex flex-col">
                 <h2 class="font-bold font-nunito">NAVIGATION</h2>
                 <div class="flex flex-col gap-2 font-poppins text-xs text-text-light">
-                    <a href="">Home</a>
+                    <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#features">Features</a>
                     <a href="#program">Program</a>
