@@ -1,7 +1,7 @@
 <x-user-layout>
     <main class="min-h-screen flex items-center justify-center">
-        <div class="flex flex-col max-w-2/5 mx-auto justify-center">
-            <h2 class="text-4xl font-semibold text-center">Hapus Log Makanan</h2>
+        <div class="flex flex-col min-w-1/3 mx-auto">
+            <h2 class="text-4xl font-semibold text-center">Hapus Makanan</h2>
             <span class="text-center">Pastikan data yang ingin dihapus sudah benar</span>
             <div class="flex flex-col bg-white rounded-3xl px-8 py-4 mt-4">
                 <div class="flex items-center justify-between">
@@ -10,39 +10,27 @@
                 </div>
                 <div class="flex flex-col gap-y-4 mt-4 w-full">
                     <x-input 
+                        label="KATEGORI"
+                        name="kategori"
+                        disabled
+                    />
+                    <x-input 
                         label="NAMA MAKANAN"
                         name="nama_makanan"
-                        placeholder="Masukkan Nama Makanan"
-                        value="Nasi Putih"
+                        disabled
                     />
-                    <div class="flex items-center gap-x-5">
-                        <x-input 
-                            label="KATEGORI"
-                            name="kategori"
-                            placeholder="Masukkan Kategori Makanan"
-                            value="Karbohidrat"
-                        />
-                        <x-input 
-                            label="PORSI (GRAM)"
-                            name="porsi"
-                            placeholder="Masukkan porsi"
-                            type="number"
-                            value="120"
-                        />
-                    </div>
                     <x-input 
-                        label="PORSI UMUM"
-                        name="porsi_umum"
-                        placeholder="Porsi umum"
-                        value="100"
+                        label="PILIH PORSI"
+                        name="porsi"
+                        disabled
                     />
                 </div>
                 <div class="flex items-center gap-x-2 justify-end mt-5">
-                    <x-button href="{{ route('user') }}" variant="outline">
+                    <x-button href="{{ route('user') }}" variant="logout">
                         Batalkan
                     </x-button>
-                    <x-button href="{{ route('user') }}" variant="logout">
-                        Hapus Makanan
+                    <x-button href="{{ route('user') }}">
+                        Tambah Makanan
                     </x-button>
                 </div>
             </div>

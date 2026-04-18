@@ -11,7 +11,7 @@ class UserDietTarget extends Model
     use HasFactory;
 
     public function dietPlan() {
-        return $this->belongsTo(DietPlan::class);
+        return $this->belongsTo(DietPlan::class, 'diet_plan_id');
     }
 
     public function user() {

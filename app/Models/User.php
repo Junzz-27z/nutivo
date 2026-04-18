@@ -19,6 +19,7 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'username',
         'email',
         'password',
     ];
@@ -51,10 +52,10 @@ class User extends Authenticatable
     }
 
     public function userTarget() {
-        return $this->hasOne(UserDietTarget::class);
+        return $this->hasOne(UserDietTarget::class, 'user_id');
     }
 
     public function foodLog() {
-        return $this->hasMany(FoodLog::class);
+        return $this->hasMany(FoodLog::class,);
     }
 }

@@ -1,0 +1,1 @@
+<footer class="px-25 py-8 text-center text-[#777777]">&copy; 2026 Nutivo. All right reserved</footer>

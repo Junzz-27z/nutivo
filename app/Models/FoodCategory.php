@@ -10,6 +10,10 @@ class FoodCategory extends Model
     /** @use HasFactory<\Database\Factories\FoodCategoryFactory> */
     use HasFactory;
 
+    protected $fillable = [
+        'name'
+    ];
+
     public function food() {
         return $this->hasMany(Food::class);
     }
