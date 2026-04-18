@@ -8,17 +8,14 @@
         case 'karbohidrat':
             $text = 'Karbohidrat';
             break;
-        case 'protein_hewani':
-            $text = 'Protein Hewani';
+        case 'protein':
+            $text = 'Protein';
             break;
-        case 'protein_nabati':
-            $text = 'Protein Nabati';
+        case 'lemak':
+            $text = 'Lemak';
             break;
-        case 'buah':
-            $text = 'Buah';
-            break;
-        case 'olahan_susu':
-            $text = 'Olahan Susu';
+        case 'serat':
+            $text = 'Serat';
             break;
         default:
             $text = '';

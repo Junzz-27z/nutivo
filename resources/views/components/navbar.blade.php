@@ -1,35 +1,19 @@
-@props([
-    'navAdmin' => false,
-    'navUser' => false,
-    'navGuest' => false,
-])
-
-@if ($navAdmin)
-    <header class="flex items-center justify-between px-25 pt-8">
-        <h1 class="font-belgrano text-3xl text-primary font-semibold">Nutivo</h1>
-        <nav class="flex items-center gap-x-7">
-            <x-nav-link href="{{ route('admin') }}" :active="request()->routeIs('admin')">Dashboard</x-nav-link>
-            <x-nav-link href="{{ route('manageUser') }}" :active="request()->routeIs('manageUser*')">Manage User</x-nav-link>
-            <x-nav-link href="{{ route('manageFood') }}" :active="request()->routeIs('manageFood*')">Manage Food</x-nav-link>
-            <x-nav-link href="{{ route('manageProgram') }}" :active="request()->routeIs('manageProgram*')">Manage Program</x-nav-link>
-        </nav>
-        <x-button href="/logout" variant="logout">Logout</x-button>
-    </header>
-@elseif ($navUser)
-    <header class="flex items-center justify-between px-25 pt-8">
-        <h1 class="font-belgrano text-3xl text-primary font-semibold">Nutivo</h1>
-        <nav class="flex items-center gap-x-7">
-            <x-nav-link href="{{ route('user') }}" :active="request()->routeIs('user')">Dashboard</x-nav-link>
-            <x-nav-link href="{{ route('profile') }}" :active="request()->routeIs('profile')">Profile</x-nav-link>
-        </nav>
-        <x-button href="/logout" variant="logout">Logout</x-button>
-    </header>
-@else 
-    <header class="flex items-center justify-between px-25 pt-8">
-        <h1 class="font-belgrano text-3xl text-primary font-semibold">Nutivo</h1>
-        <nav class="flex items-center gap-x-7">
-            
-        </nav>
-        
-    </header>
-@endif
+<nav class="flex items-center gap-x-7">
+    @guest
+        <x-nav-link href="{{ route('user') }}" :active="request()->routeIs('user')">Home</x-nav-link>
+        <x-nav-link href="{{ route('profile') }}" :active="request()->routeIs('profile')">About</x-nav-link>
+        <x-nav-link href="{{ route('user') }}" :active="request()->routeIs('user')">Features</x-nav-link>
+        <x-nav-link href="{{ route('profile') }}" :active="request()->routeIs('profile')">Program</x-nav-link>
+    @endguest
+    @auth
+    @can('user-only')
+        <x-nav-link href="{{ route('user.food-logs.index') }}" :active="request()->routeIs('user.food-logs.index')">Dashboard</x-nav-link>
+        <x-nav-link href="{{ route('profile') }}" :active="request()->routeIs('profile')">Profile</x-nav-link>
+    @endcan
+    @can('admin-only')
+        <x-nav-link href="{{ route('admin.dashboard') }}" :active="request()->routeIs('admin.dashboard')">Dashboard</x-nav-link>
+        <x-nav-link href="{{ route('admin.manage-user.index') }}" :active="request()->routeIs('admin.manage-user.index')">Manage User</x-nav-link>
+        <x-nav-link href="{{ route('admin.manage-food.index') }}" :active="request()->routeIs('admin.manage-food.index')">Manage Food</x-nav-link>
+    @endcan
+    @endauth
+</nav>

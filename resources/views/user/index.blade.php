@@ -1,4 +1,5 @@
-<x-user-layout :hideNavbar="true">
+@extends('layouts.main')
+@section('content')
     <div class="flex items-center justify-between">
         <div class="flex flex-col">
             <h1 class="text-4xl font-semibold">Halo, Megadhana</h1>
@@ -56,7 +57,7 @@
                 </div>
             </div>
             @endforeach
-            <x-button href="{{ route('foodLog.create') }}" class="mt-4" variant="outline">+ Tambah Makanan</x-button>
+            <x-button href="{{ route('user.food-logs.create') }}" class="mt-4" variant="outline">+ Tambah Makanan</x-button>
         </div>
 
         <div class="grid grid-cols-3 gap-5 w-3/5">
@@ -92,4 +93,4 @@
             </div>
         </div>
     </div>
-</x-user-layout>
+@endsection
